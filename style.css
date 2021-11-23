@@ -1,26 +1,62 @@
+*{
+    width: 100%;
+    height: auto;
+}
+
+
 .main_container{
     display: flex;
     background-color: #1f2937;
     color: white;
-    padding: 20px;
+    width: 100%;
+    height: 470px;
     flex-direction: column;
-    flex-wrap: wrap;
+
+
 }
 .header{
     font-size: 72px;
     border: 2px solid red;
     color: violet;
+    top: 0;
+    padding: 29px;
+    margin: 40px;
+    
 }
 .hero{
     border: 4px solid yellow;
+    justify-content: flex-end;
+    margin: 40px;
 }
 .secondary{
     border: 4px solid green;
 }
 .footer{
+    background-color: #1f2937;
+    color:blanchedalmond;
     font-size: 48px;
-    border: 4px solid red;
-    color: violet;
-    
+    border: 4px solid violet;
+    width: 100%;
+    bottom: 0;
+}
 
+.secondary_container{
+    display: flex;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    height: 470px;
+    flex-direction: column;
+}
+
+.button-block{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: #3882f6;
+}
+
+button{
+    border: 3px solid tomato;
 }
