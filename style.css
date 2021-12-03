@@ -1,21 +1,21 @@
 *{
-    width: 100%;
-    height: auto;
     font-family: Helvetica;
 }
 
 .page{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .header_container{
     background-color: #1f2937;
     display: flex;
+    flex: 1;
 }
 
-.header{
-    color:#f9faf8;
+#header{
+    color: #f9faf8;
     font-size: 24px;
 }
 
@@ -27,6 +27,7 @@ a{
 
 .main_container{
     background-color: #1f2937;
+    display: flex;   
 }
 
 .main_text{
@@ -38,4 +39,61 @@ a{
 .sub_text{
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.button1{
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.header_text{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.photo_container{
+    display: flex;
+    color: #1f2937;
+}
+
+img{
+    border: 5px solid #3882f6;
+    
+}
+
+.img_text{
+    color: #1f2937;
+}
+
+.quote_container{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 36px;
+}
+
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.author{
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.action_container{
+    background-color: #3882f6;
+    display: flex;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
 }
