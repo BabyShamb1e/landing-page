@@ -1,11 +1,14 @@
 *{
     font-family: Helvetica;
+    height: auto;
+    width: 100%;
 }
 
 .page{
     display: flex;
     flex-direction: column;
     height: 100%;
+    flex: 1;
 }
 
 .header_container{
@@ -96,4 +99,5 @@ img{
     font-size: 18px;
     display: flex;
     justify-content: center;
+    flex-shrink: 0;
 }
