@@ -1,20 +1,17 @@
 *{
     font-family: Helvetica;
-    height: auto;
-    width: 100%;
 }
 
 .page{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    flex: 1;
 }
 
 .header_container{
     background-color: #1f2937;
     display: flex;
-    flex: 1;
+    justify-content: space-between;
+    
 }
 
 #header{
@@ -55,11 +52,15 @@ a{
     font-weight: bold;
     display: flex;
     justify-content: center;
+    margin: 16px;
 }
 
 .photo_container{
     display: flex;
     color: #1f2937;
+    justify-content: center;
+    gap: 8px;
+    margin: 16px;
 }
 
 img{
