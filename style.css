@@ -10,13 +10,17 @@
 .header_container{
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;   
 }
 
-#header{
+.header{
     color: #f9faf8;
     font-size: 24px;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
 }
 
 a{
@@ -28,8 +32,20 @@ a{
 .main_container{
     background-color: #1f2937;
     display: flex;   
+    justify-content: space-around;
 }
 
+.left{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 32px;
+    padding: 16px;
+    align-items: center;
+}
+.right{
+    display: flex;
+}
 .main_text{
     color: #f9faf8;
     font-size: 48px;
@@ -44,6 +60,8 @@ a{
 .button1{
     background-color: #3882f6;
     color: #f9faf8;
+    width: 100px;
+    margin-top: 8px;
 }
 
 .header_text{
@@ -76,7 +94,8 @@ img{
     background-color: #e5e7eb;
     display: flex;
     flex-wrap: wrap;
-    padding: 36px;
+    padding: 32px;
+    margin: 32px;
 }
 
 .quote{
@@ -92,7 +111,17 @@ img{
 .action_container{
     background-color: #3882f6;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 32px;
+    padding: 32px;
 }
+
+.act_left{
+    display: flex;
+    flex-flow: column wrap;
+}
+
 
 .footer{
     background-color: #1f2937;
