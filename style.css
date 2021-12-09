@@ -1,5 +1,5 @@
 *{
-    font-family: Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .page{
@@ -10,7 +10,8 @@
 .header_container{
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-between;
+    padding: 32px;
 }
 
 .header{
@@ -29,22 +30,30 @@ a{
     text-decoration: none;
 }
 
+.right{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 16px;
+}
+
 .main_container{
     background-color: #1f2937;
     display: flex;   
     justify-content: space-around;
+    padding: 32px;
 }
 
 .left{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    margin: 32px;
-    padding: 16px;
     align-items: center;
 }
 .right{
     display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
 }
 .main_text{
     color: #f9faf8;
@@ -62,6 +71,7 @@ a{
     color: #f9faf8;
     width: 100px;
     margin-top: 8px;
+    border-radius: 8px;
 }
 
 .header_text{
@@ -77,25 +87,37 @@ a{
     display: flex;
     color: #1f2937;
     justify-content: center;
-    gap: 8px;
-    margin: 16px;
+    gap: 75px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 img{
-    border: 5px solid #3882f6;
-    
+    border: 5px solid #3882f6; 
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.img_text{
+.box{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 16px;
+}
+
+p{
     color: #1f2937;
+    display: block;
 }
 
 .quote_container{
     background-color: #e5e7eb;
     display: flex;
-    justify-content: space-between;
-    padding: 32px;
-    margin: 32px;
+    justify-content: center;
+    height: 200px;
+    margin-top: 32px;
+    align-items: center;
 }
 
 .quote{
@@ -107,6 +129,7 @@ img{
     color: #1f2937;
     font-weight: bolder;
     align-self: flex-end;
+    padding: 32px;
 }
 
 .action_container{
@@ -116,6 +139,14 @@ img{
     align-items: center;
     margin: 32px;
     padding: 32px;
+    border-radius: 15px;
+}
+
+.button2{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #e5e7eb;
+    border: solid #e5e7eb;
 }
 
 .act_left{
