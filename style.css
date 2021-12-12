@@ -20,6 +20,7 @@
     margin-right: auto;
     border-radius: 50px;
     border: 0px;
+    align-self: center;
 }
 
 .links{
@@ -33,17 +34,13 @@ a{
     text-decoration: none;
 }
 
-.right{
-    height: 200px;
-    width: 200px;
-    margin-bottom: 16px;
-}
+
 
 .main_container{
     background-color: #1f2937;
     display: flex;   
     justify-content: space-around;
-    padding: 32px;
+    padding: 16px;
 }
 
 .left{
@@ -57,7 +54,17 @@ a{
     width: 100%;
     height: auto;
     justify-content: center;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 16px;
+    height: auto;
 }
+
+.right img{
+    border: 0px;
+    display: flex;
+}
+
 .main_text{
     color: #f9faf8;
     font-size: 48px;
@@ -121,11 +128,14 @@ p{
     height: 200px;
     margin-top: 32px;
     align-items: center;
+    height: auto;
 }
 
 .quote{
     color: #1f2937;
-    font-size: 36px;
+    font-size: 28px;
+    padding: 16px;
+
 }
 
 .author{
